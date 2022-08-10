@@ -12,6 +12,7 @@ function interestCalculator(v, t) {
         MonthValue.push((value + (value * t/100)).toFixed(2));
         value = value + (value * t/100);
     }
+    
     console.log(MonthValue);
 }
 
