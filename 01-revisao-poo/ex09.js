@@ -5,14 +5,14 @@ aplicada como juros compostos ao valor v mês a mês.
 Ex: v = 1000,00 e t = 1%. Retornar: 1.010 – 1.020,10 - 1.030,30 - ... - 1.126,82
 */
 
-function calculaJuros(v, t) {
-    let valorMensal = [];
-    let valor = v;
+function interestCalculator(v, t) {
+    let MonthValue = [];
+    let value = v;
     for (let i = 1; i <= 12; i++) {
-        valorMensal.push((valor + (valor * t/100)).toFixed(2));
-        valor = valor + (valor * t/100);
+        MonthValue.push((value + (value * t/100)).toFixed(2));
+        value = value + (value * t/100);
     }
-    console.log(valorMensal);
+    console.log(MonthValue);
 }
 
-calculaJuros(1000, 1);
+interestCalculator(1000, 1);
