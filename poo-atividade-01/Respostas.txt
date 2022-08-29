@@ -1,0 +1,61 @@
+Questão 01 ) Qual a diferença entre classes e objetos ? Exemplifique.
+
+A classe pode ser entendida como um molde formador, enquanto o objeto pode ser entendido como algo moldado pela classe. Exemplificando, podemos considerar o desenho 
+de uma planta de alguma casa a ser construída como uma classe, e após a implantação dessa planta em uma casa, essa casa moldada no papel torna-se um objeto com 
+atributos próprios tais como cores próprias, dimensões próprias, se tem ou não garagem, etc...
+
+Questão 02) De forma breve, conceitue atributos e métodos. Pesquise e exemplifique um exemplo de objeto que possua atributos e métodos (notação livre).
+
+Atributos são considerados as características de determinado objeto, enquanto métodos são ações que determinado objeto pode fazer. Exemplificando, dado um carro a ser
+considerado um objeto nesse exemplo, as suas características tais como cores, tamanho, quantidade de portas são consideradas como atributos, enquanto a sua ação de 
+acelerar, frear, parar, andar, são consideradas métodos.
+
+Questão 03) A abstração visa focar no que é importante para um sistema. Você concorda que um atributo de uma pessoa pode ser importante ou não dependendo do contexto
+do sistema. Enumere na tabela abaixo contextos/sistemas distintos em que os atributos abaixo seriam relevantes:
+
+Peso -> Sistema de Saúde
+Tipo de CNH -> Sistema de Trânsito
+Tipo Sanguíneo -> Sistema Hospitalar
+Habilidade destra -> Sistema Educacional
+Percentual de gordura -> Sistema de Saúde
+Saldo em conta -> Sistema Bancário
+Etinia -> Sistema Governamental
+
+Questão 04) Considerando os objetos Pessoa e Conta:
+a. Seria interessante em um sistema bancário um objeto "conta" possuir uma
+"pessoa" como um atributo interno representando o titular da conta?
+
+Não. Seria interessante um segundo objeto chamado "pessoa" que poderia ser referenciado no objeto "conta".
+
+b. Olhando no sentido inverso, seria interessante uma pessoa possuir mais de
+uma conta como atributo? Que elemento da programação estruturada melhor
+representaria o conjunto de contas de uma pessoa?
+
+Sim. O elemento de programação estruturada mais adequado que melhor representaria seria um array.
+
+Questão 05) Identifique pelo menos 5 objetos de um sistema de controle acadêmico. Ex: aluno.
+
+Professores, Disciplinas, Turmas, Cursos, Coordenacao
+
+Questão 06) Imagine um jogo qualquer. Identifique o máximo de objetos possíveis e eventuais características (atributos) e comportamentos (métodos) 
+que os mesmos poderiam ter.
+
+Vazia
+
+Questão 07) Considerando o exemplo da classe Retangulo dos slides, implemente um método adicional chamado que calcule o perímetro do retângulo e altere a classe
+TestaRetangulo para exibir o cálculo do perímetro.
+
+class Retangulo {
+    l1: number = 0;
+    l2: number = 0;
+    calcularArea(): number {
+      return this.l1 * this.l2;
+    }
+    calcularPerimetro(): number {
+      return (this.l1 * 2) + (this.l2 * 2)
+     }
+}
+
+class TestaRetangulo {
+    console.log()
+}
