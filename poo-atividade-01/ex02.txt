@@ -4,15 +4,20 @@ Atributos são considerados as características de determinado objeto, enquanto 
 considerado um objeto nesse exemplo, as suas características tais como cores, tamanho, quantidade de portas são consideradas como atributos, enquanto a sua ação de 
 acelerar, frear, parar, andar, são consideradas métodos.
 
-Notação Livre)
+-----------------
+Notação Livre
 
-class Clarro {
-  cor = Vermelho
-  tamanho = Grande Porte
-  quantidadePortas = 4
+class Carro {
+  cor = '',
+  quantidadePortas = '',
   
-  andar()
-  frear()
-  parar()
-  acelerar()
+  andar() = false,
+  frear() = false,
+  parar() = false,
+  acelerar() = false
 }
+
+variavel carro01 = new Carro()
+carro01.cor = 'Vemelho';
+carro01.quantidadePortas = 4;
+carro01.andar() = true; 
