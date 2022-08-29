@@ -3,3 +3,16 @@ Questão 02) De forma breve, conceitue atributos e métodos. Pesquise e exemplif
 Atributos são considerados as características de determinado objeto, enquanto métodos são ações que determinado objeto pode fazer. Exemplificando, dado um carro a ser
 considerado um objeto nesse exemplo, as suas características tais como cores, tamanho, quantidade de portas são consideradas como atributos, enquanto a sua ação de 
 acelerar, frear, parar, andar, são consideradas métodos.
+
+Notação Livre)
+
+class Clarro {
+  cor = Vermelho
+  tamanho = Grande Porte
+  quantidadePortas = 4
+  
+  andar()
+  frear()
+  parar()
+  acelerar()
+}
