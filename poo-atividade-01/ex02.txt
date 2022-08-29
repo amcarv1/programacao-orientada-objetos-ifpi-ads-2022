@@ -9,7 +9,7 @@ Notação Livre
 
 class Carro {
   cor = '',
-  quantidadePortas = '',
+  quantidadePortas = 0,
   
   andar() = false,
   frear() = false,
