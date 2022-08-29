@@ -1,0 +1,12 @@
+Questão 04) Considerando os objetos Pessoa e Conta:
+
+a. Seria interessante em um sistema bancário um objeto "conta" possuir uma
+"pessoa" como um atributo interno representando o titular da conta?
+
+Não. Seria interessante um segundo objeto chamado "pessoa" que poderia ser referenciado no objeto "conta".
+
+b. Olhando no sentido inverso, seria interessante uma pessoa possuir mais de
+uma conta como atributo? Que elemento da programação estruturada melhor
+representaria o conjunto de contas de uma pessoa?
+
+Sim. O elemento de programação estruturada mais adequado que melhor representaria seria um array.
