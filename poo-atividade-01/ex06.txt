@@ -1,0 +1,40 @@
+Questão 06) Imagine um jogo qualquer. Identifique o máximo de objetos possíveis e eventuais características (atributos) e comportamentos (métodos) que os mesmos
+poderiam ter.
+
+Jogo: GTA
+
+Objetos:
+  Objeto 01 -> Personagem Principal
+               Atributos: 
+               - Nome
+               - Chapéu
+               - Camiseta
+               - Calça
+               - Calçado
+               - Dinheiro
+               
+               Métodos
+               - Andar
+               - Correr
+               - Dirigir
+               - Comprar
+               
+  Objeto 02 -> Carro
+               Atributos: 
+               - Modelo
+               - Cor
+               
+               Métodos
+               - Acelerar
+               - Frear
+               - Parar
+
+  Objeto 03 -> Moto
+               Atributos: 
+               - Modelo
+               - Cor
+               
+               Métodos
+               - Acelerar
+               - Frear
+               - Parar
