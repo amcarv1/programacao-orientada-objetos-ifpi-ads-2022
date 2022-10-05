@@ -1,0 +1,1 @@
+Haverá um erro de compilação. Pois é necessário inicicializar a variável "quantReservas".
