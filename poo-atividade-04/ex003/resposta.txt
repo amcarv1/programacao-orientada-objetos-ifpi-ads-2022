@@ -1,0 +1,13 @@
+O erro de compilação ocorre pois não é passado um argumento no método construtor.
+
+Proposta de solução:
+
+class Radio {
+  volume : number;
+  constructor(volume : number) {
+    this.volume = volume;
+  }
+}
+
+let r : Radio = new Radio(10); // Argumento passado no método construtor
+r.volume = 10;
