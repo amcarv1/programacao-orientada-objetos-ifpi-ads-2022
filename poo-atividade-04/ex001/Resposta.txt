@@ -1,1 +1,1 @@
-Haverá um erro de compilação. Pois é necessário inicicializar a variável "quantReservas".
+Haverá um erro de compilação. Pois é necessário inicicializar a variável "quantReservas" através do método construtor.
