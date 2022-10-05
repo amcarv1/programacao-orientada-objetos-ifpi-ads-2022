@@ -1,0 +1,7 @@
+Letra A) Qual o resultado dos dois "prints"? Justifique sua resposta.
+
+R = O Resultado exibido é 90 em todos. Isso acontece porque os objetos estão fazendo referência na memória. Por isso, uma mudança em um implica também mudança no outro.
+
+Letra B) O que acontece com o objeto para o qual a referência c1 apontava?
+
+R = Esse objeto terá os mesmos valores que c1 tiver.
