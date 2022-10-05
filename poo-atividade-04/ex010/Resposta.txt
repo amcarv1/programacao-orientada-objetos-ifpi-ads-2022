@@ -1,0 +1,1 @@
+Considerar alterações. Pois é importante sabermos onde está o erro do código em fase de desenvolvimento.
