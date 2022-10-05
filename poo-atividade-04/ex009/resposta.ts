@@ -22,8 +22,8 @@ class Jogador {
         }
     }
 
-    estaVivo(pontosJogador : number) : boolean{
-        if (pontosJogador > 0){
+    estaVivo(pontosLuta : number) : boolean{
+        if (pontosLuta > 0){
             return true;
         } else {
             return false;
