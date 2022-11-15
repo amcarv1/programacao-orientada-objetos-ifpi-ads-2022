@@ -1,1 +1,0 @@
-Não podemos, pois uma classe abstrata só pode ser herdada.
