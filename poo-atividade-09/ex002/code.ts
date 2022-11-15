@@ -23,7 +23,7 @@ class Banco {
             if (this._contas[i].numero == numero) {
                 contaProcurada = this._contas[i];
             }   else {
-                throw new ContaInexistenteError ('Conta Inexistente!'); 
+                throw new ContaInexistenteError('Conta Inexistente!'); 
             }
         }
 
@@ -40,7 +40,7 @@ class Banco {
             if (this._contas[i].numero == numero) {
                 indiceProcurado = i;
             }   else {
-                throw new ContaInexistenteError ('Conta Inexistente!');
+                throw new ContaInexistenteError('Conta Inexistente!');
             }
         }
 
